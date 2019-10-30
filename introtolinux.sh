@@ -19,8 +19,6 @@ sudo usermod -g ugrad user2
 sudo usermod -g staff user3
 cd ~
 cd ..
-sudo chgrp grad /grad/
-sudo chgrp ugrad /ugrad/
 sudo mkdir everyone
 sudo chmod 1755 ./everyone
 sudo tasksel install lamp-server
