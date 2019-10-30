@@ -18,7 +18,7 @@ sudo useradd -d /home/staff -m -G sudo user3
 sudo usermod -g grad user1
 sudo usermod -g ugrad user2
 sudo usermod -g staff user3
-cd /home
+cd ~
 sudo chgrp grad /grad
 sudo chgrp ugrad /ugrad
 sudo mkdir everyone
@@ -43,3 +43,4 @@ sudo mysql --user="root" --password="root" --database="CS" --execute="CREATE TAB
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );"
 echo "done"
+echo "please reboot"
