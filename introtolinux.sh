@@ -23,8 +23,7 @@ sudo chgrp grad /grad
 sudo chgrp ugrad /ugrad
 sudo mkdir everyone
 sudo chmod 1755 ./everyone
-##sudo apt install tasksel
-##sudo tasksel install lamp-server
+
 sudo cd /var/www/html/
 sudo wget https://raw.githubusercontent.com/mrgooglegeek/introtolinux/master/config.php
 sudo wget https://raw.githubusercontent.com/mrgooglegeek/introtolinux/master/index.php
