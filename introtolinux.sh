@@ -19,8 +19,8 @@ sudo usermod -g grad user1
 sudo usermod -g ugrad user2
 sudo usermod -g staff user3
 cd ~
-sudo chgrp grad /grad
-sudo chgrp ugrad /ugrad
+sudo chgrp grad /grad/
+sudo chgrp ugrad /ugrad/
 sudo mkdir everyone
 sudo chmod 1755 ./everyone
 
@@ -42,5 +42,8 @@ sudo mysql --user="root" --password="root" --database="CS" --execute="CREATE TAB
     password VARCHAR(255) NOT NULL,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );"
+echo " "
+echo " "
 echo "done"
+echo " "
 echo "please reboot"
