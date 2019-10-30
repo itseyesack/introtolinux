@@ -1,4 +1,3 @@
-sudo apt install openssh-server
 sudo systemctl enable ssh
 cd /etc/network/
 sudo rm interfaces
@@ -24,8 +23,6 @@ sudo chgrp grad /grad/
 sudo chgrp ugrad /ugrad/
 sudo mkdir everyone
 sudo chmod 1755 ./everyone
-sudo apt install tasksel
-
 sudo tasksel install lamp-server
 cd /var/www/html/
 sudo wget https://raw.githubusercontent.com/mrgooglegeek/introtolinux/master/config.php
